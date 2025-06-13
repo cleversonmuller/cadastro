@@ -22,11 +22,11 @@ import {
 } from '@mui/material';
 import { AddCircleOutline, PeopleOutline } from '@mui/icons-material';
 
-// Tema básico do Material-UI
+// configuraçao da pagina
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2',
+      main: '#1976d2',  
     },
     secondary: {
       main: '#dc004e',
@@ -97,7 +97,7 @@ function a11yProps(index) {
   };
 }
 
-// Componente principal da aplicação
+// onde salvo as informacao da tela 
 function App() {
   const [tabValue, setTabValue] = useState(0);
   const [users, setUsers] = useState([]);
@@ -174,7 +174,7 @@ function App() {
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
-          // --- Fim das Configurações da Imagem de Fundo ---
+        
         }}
       >
         <Container maxWidth="md">
